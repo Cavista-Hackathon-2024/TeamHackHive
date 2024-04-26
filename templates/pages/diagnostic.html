@@ -12,19 +12,19 @@
     <h1 class="logo">DiagAI👩‍⚕️</h1>
     <span>ID:Patient 0001</span>
 </div>
-    <form action="" method="post" class="diagnostic--form">
+    <form action="/diagnose" method="post" class="diagnostic--form">
         <div class="patient--details">
             <div>
-                <label for="">Patient Name:</label>
-                <input type="text" name="" id="">
+                <label for="patient_name">Patient Name:</label>
+                <input type="text" name="patient_name" id="patient_name">
             </div>
             <div>
-                <label for="">Disability/Family Illness:</label>
-                <input type="text" name="" id="">
+                <label for="illness">Disability/Family Illness:</label>
+                <input type="text" name="illness" id="illness">
             </div>
             
         </div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Start typing your symptoms, seperate the comma....."></textarea>
+        <textarea name="symptoms" id="symptoms" cols="30" rows="10" placeholder="Start typing your symptoms, seperate the comma....."></textarea>
         <button type="Submit" class="diagnostic--btn">Submit</button>
     </form>
 </body>
