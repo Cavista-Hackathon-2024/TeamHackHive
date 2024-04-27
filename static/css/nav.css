@@ -1,0 +1,29 @@
+nav{
+    width: 40%;
+    max-width: 40%;
+    background-color: #F0F0F5;
+    height: 100vh;
+    padding: 2rem;
+}
+
+ul li{
+    padding: 2rem;
+    transition: all 0.3s;
+}
+
+.nav--list:hover{
+    color: #000000;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20rem;
+}
+
+.logout{
+    color: red;
+    margin: auto 0;
+}

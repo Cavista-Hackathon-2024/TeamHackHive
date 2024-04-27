@@ -24,5 +24,13 @@ def diagnose():
 def symptomresults():
     return render_template("pages/result.html")
 
+@app.route("/reports")
+def reports():
+    return render_template("pages/reports.html")
+
+@app.route("/nav")
+def nav():
+     return render_template("pages/nav.html")
+
 if __name__ == "_main_":
 	app.run(host="0.0.0.0")

@@ -1,0 +1,20 @@
+table{
+    padding: 2rem;
+}
+
+tr th{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem;
+}
+
+tr td{
+    font-size: 18px;
+    text-align: center;
+    padding: 1rem;
+}
+
+#table--header{
+    border-bottom: 1px solid #CADD57;
+}
